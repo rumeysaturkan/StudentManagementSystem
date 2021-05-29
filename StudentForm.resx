@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnStudentRemove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 16.2pt</value>
+  </data>
+  <data name="btnStudentRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 555</value>
+  </data>
+  <data name="btnStudentRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 46</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnStudentRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnStudentRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;btnStudentRemove.Name" xml:space="preserve">
+    <value>btnStudentRemove</value>
+  </data>
+  <data name="&gt;&gt;btnStudentRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStudentRemove.Parent" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;btnStudentRemove.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dgvStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 162</value>
+  </data>
+  <data name="dgvStudents.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvStudents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>991, 387</value>
+  </data>
+  <data name="dgvStudents.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvStudents.Name" xml:space="preserve">
+    <value>dgvStudents</value>
+  </data>
+  <data name="&gt;&gt;dgvStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvStudents.Parent" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;dgvStudents.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblStudent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStudent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 16.2pt</value>
+  </data>
+  <data name="lblStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 113</value>
+  </data>
+  <data name="lblStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 32</value>
+  </data>
+  <data name="lblStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblStudent.Text" xml:space="preserve">
+    <value>Student List</value>
+  </data>
+  <data name="&gt;&gt;lblStudent.Name" xml:space="preserve">
+    <value>lblStudent</value>
+  </data>
+  <data name="&gt;&gt;lblStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStudent.Parent" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;lblStudent.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblStudentSearch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStudentSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 16.2pt</value>
+  </data>
+  <data name="lblStudentSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="lblStudentSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 32</value>
+  </data>
+  <data name="lblStudentSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblStudentSearch.Text" xml:space="preserve">
+    <value>Id </value>
+  </data>
+  <data name="&gt;&gt;lblStudentSearch.Name" xml:space="preserve">
+    <value>lblStudentSearch</value>
+  </data>
+  <data name="&gt;&gt;lblStudentSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStudentSearch.Parent" xml:space="preserve">
+    <value>groupBoxSearchByIdS</value>
+  </data>
+  <data name="&gt;&gt;lblStudentSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtbxSearchStudent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Handwriting, 12pt</value>
+  </data>
+  <data name="txtbxSearchStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 37</value>
+  </data>
+  <data name="txtbxSearchStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 35</value>
+  </data>
+  <data name="txtbxSearchStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtbxSearchStudent.Name" xml:space="preserve">
+    <value>txtbxSearchStudent</value>
+  </data>
+  <data name="&gt;&gt;txtbxSearchStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbxSearchStudent.Parent" xml:space="preserve">
+    <value>groupBoxSearchByIdS</value>
+  </data>
+  <data name="&gt;&gt;txtbxSearchStudent.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 16.2pt</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 36</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="addToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 13.8pt</value>
+  </data>
+  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 36</value>
+  </data>
+  <data name="addToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="uptadeToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 13.8pt</value>
+  </data>
+  <data name="uptadeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 36</value>
+  </data>
+  <data name="uptadeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Uptade</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 40</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxstudentform.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelnumberofStudent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="labelnumberofStudent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelnumberofStudent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 13.8pt</value>
+  </data>
+  <data name="labelnumberofStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 35</value>
+  </data>
+  <data name="labelnumberofStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="labelnumberofStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelnumberofStudent.Name" xml:space="preserve">
+    <value>labelnumberofStudent</value>
+  </data>
+  <data name="&gt;&gt;labelnumberofStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelnumberofStudent.Parent" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;labelnumberofStudent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxSearchByIdS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 13.8pt</value>
+  </data>
+  <data name="groupBoxSearchByIdS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 21</value>
+  </data>
+  <data name="groupBoxSearchByIdS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 89</value>
+  </data>
+  <data name="groupBoxSearchByIdS.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupBoxSearchByIdS.Text" xml:space="preserve">
+    <value>Search By Id </value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByIdS.Name" xml:space="preserve">
+    <value>groupBoxSearchByIdS</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByIdS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByIdS.Parent" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByIdS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.Name" xml:space="preserve">
+    <value>comboBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.Parent" xml:space="preserve">
+    <value>groupBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxSearchByDepSt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 13.8pt</value>
+  </data>
+  <data name="groupBoxSearchByDepSt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 21</value>
+  </data>
+  <data name="groupBoxSearchByDepSt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 89</value>
+  </data>
+  <data name="groupBoxSearchByDepSt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBoxSearchByDepSt.Text" xml:space="preserve">
+    <value>Search By Department</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByDepSt.Name" xml:space="preserve">
+    <value>groupBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByDepSt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByDepSt.Parent" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSearchByDepSt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBoxstudentform.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 52</value>
+  </data>
+  <data name="groupBoxstudentform.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1023, 607</value>
+  </data>
+  <data name="groupBoxstudentform.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBoxstudentform.Name" xml:space="preserve">
+    <value>groupBoxstudentform</value>
+  </data>
+  <data name="&gt;&gt;groupBoxstudentform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxstudentform.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxstudentform.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lucida Bright, 12pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 41</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items" xml:space="preserve">
+    <value>Not Selected</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items1" xml:space="preserve">
+    <value>Architecture</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items2" xml:space="preserve">
+    <value>Chemical Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items3" xml:space="preserve">
+    <value>Computer Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items4" xml:space="preserve">
+    <value>Civil Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items5" xml:space="preserve">
+    <value>Environmental Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items6" xml:space="preserve">
+    <value>Electrical Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items7" xml:space="preserve">
+    <value>Civil Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items8" xml:space="preserve">
+    <value>Industrial Design</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items9" xml:space="preserve">
+    <value>Philosophy</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items10" xml:space="preserve">
+    <value>Physics</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items11" xml:space="preserve">
+    <value>Psychology</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items12" xml:space="preserve">
+    <value>Nursing</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items13" xml:space="preserve">
+    <value>Mathematics</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Items14" xml:space="preserve">
+    <value>Mechanical Engineering</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 38</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 34</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBoxSearchByDepSt.Text" xml:space="preserve">
+    <value>Not Selected</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.Name" xml:space="preserve">
+    <value>comboBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.Parent" xml:space="preserve">
+    <value>groupBoxSearchByDepSt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSearchByDepSt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonMini.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonMini.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonMini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 12</value>
+  </data>
+  <data name="buttonMini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="buttonMini.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonMini.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;buttonMini.Name" xml:space="preserve">
+    <value>buttonMini</value>
+  </data>
+  <data name="&gt;&gt;buttonMini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMini.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMini.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonMax.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 12</value>
+  </data>
+  <data name="buttonMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="buttonMax.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonMax.Name" xml:space="preserve">
+    <value>buttonMax</value>
+  </data>
+  <data name="&gt;&gt;buttonMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMax.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonEx.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonEx.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonEx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>994, 12</value>
+  </data>
+  <data name="buttonEx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="buttonEx.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonEx.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;buttonEx.Name" xml:space="preserve">
+    <value>buttonEx</value>
+  </data>
+  <data name="&gt;&gt;buttonEx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonEx.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1047, 671</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addToolStripMenuItem.Name" xml:space="preserve">
+    <value>addToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;addToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uptadeToolStripMenuItem.Name" xml:space="preserve">
+    <value>uptadeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;uptadeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StudentForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
